@@ -1,0 +1,21 @@
+#id1{
+    background-color: rgb(67, 30, 235);
+    font-weight: 500;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.heading{
+    color: rgb(245, 11, 11);
+}
+
+#id2{
+    background-color: rgb(8, 167, 47);
+}
+
+.button{
+    background-color: rgb(76, 10, 199);
+    color: rgb(19, 11, 11);
+}

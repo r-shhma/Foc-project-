@@ -1,0 +1,32 @@
+.colorbox{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:299px){
+    .colorbox{
+        background-color: green;
+    }
+}
+
+@media (min-width:300px) and (max-width:399px){
+    .colorbox{
+        background-color: pink;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .colorbox{
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    .colorbox{
+        background-color: blue;
+    }
+}
